@@ -1,0 +1,40 @@
+Regra,A,Beta,TamanhoBeta
+1,P',P,1
+2,P,inicio V A,3
+3,V,varinicio LV,2
+4,LV,D LV,2
+5,LV,varfim pt_v,2
+6,D,TIPO L pt_v,3
+7,L,id vir L,3
+8,L,id,1
+9,TIPO,inteiro,1
+10,TIPO,real,1
+11,TIPO,literal,1
+12,A,ES A,2
+13,ES,leia id pt_v,3
+14,ES,escreva ARG pt_v,3
+15,ARG,lit,1
+16,ARG,num,1
+17,ARG,id,1
+18,A,CMD A,2
+19,CMD,id atr LD pt_v,4
+20,LD,OPRD opm OPRD,3
+21,LD,OPRD,1
+22,OPRD,id,1
+23,OPRD,num,1
+24,A,COND A,2
+25,COND,CAB CP,2
+26,CAB,se ab_p EXP_R fc_p então,5
+27,EXP_R,OPRD opr OPRD,3
+28,CP,ES CP,2
+29,CP,CMD CP,2
+30,CP,COND CP,2
+31,CP,fimse,2
+32,A,R A,2
+33,R,CABR CPR,2
+34,CABR,repita ab_p EXP_R fc_p ,4
+35,CPR,ES CPR,2
+36,CPR,CMD CPR,2
+37,CPR,COND CPR,2
+38,CPR,fimrepita,1
+39,A,fim,1
